@@ -51,6 +51,8 @@ a {
 
 .welcome {
     gap:40px;
+    display:flex;
+    justify-content:space-around;
 }
 
 .welcome-text > p {
