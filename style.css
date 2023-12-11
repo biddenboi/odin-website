@@ -12,8 +12,6 @@
 .header {
     display:flex;
     color: white;
-    align-items:center;
-    justify-content:space-around;
     padding:15px;
     font-weight:lighter;
 }
@@ -47,10 +45,6 @@ a {
 }
 
 .welcome {
-    display:flex;
-    align-items:center; 
-    justify-content:center; 
-    padding:70px;
     gap:40px;
 }
 
