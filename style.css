@@ -42,16 +42,3 @@ a {
     
 }
 
-.content {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.img .text {
-    flex: 1 1 auto;
-}
-
-.img {
-    background-color:#E5E7EB;
-}
