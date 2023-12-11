@@ -16,6 +16,11 @@
     font-weight:lighter;
 }
 
+.header, .content, .info, .banner, .quote, .footer {
+    display:flex;
+    justify-content: space-around;
+}
+
 .headerLinks {
     display:flex;
     gap:16px;
