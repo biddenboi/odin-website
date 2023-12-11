@@ -15,7 +15,7 @@
     align-items:center;
     justify-content:space-around;
     padding:15px;
-    font-weight:light
+    font-weight:lighter;
 }
 
 .headerLinks {
@@ -49,12 +49,20 @@ a {
 .welcome {
     display:flex;
     align-items:center; 
-    justify-content:center;
+    justify-content:center; 
+    padding:70px;
+    gap:40px;
+}
+
+.welcome-text > p {
+    font-weight:lighter;
+}
+
+.welcome-text > h2 {
+    font-size:40px;
 }
 
 .img {
-    min-width:30px;
-    min-height:30px;
     background-color:grey;
     padding:20px;
 }
