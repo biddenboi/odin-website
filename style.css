@@ -1,0 +1,43 @@
+* {
+    font-family:roboto;
+    margin:0;
+    padding:0;
+}
+
+.black-bkg {
+    background-color:#1F2937;
+    color:white;
+}
+
+.header {
+    display:flex;
+    color: white;
+    align-items:center;
+    justify-content:space-around;
+    padding:15px;
+    font-weight:lighter;
+}
+
+.headerLinks {
+    display:flex;
+    gap:16px;
+}
+
+.header > p {
+    font-weight:bold;
+}
+
+button {
+    color:white;
+    background-color:#3882F6;
+    border-radius:7.5px;
+    border-style:none;
+    padding:5px 15px;
+    
+}
+
+a {
+    color:white;
+    text-decoration:none;
+    
+}
