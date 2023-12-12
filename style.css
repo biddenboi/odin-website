@@ -46,13 +46,44 @@ html, body {
 .header-section {
     display:flex;
     flex-direction: column;
-    padding: 0px 10%;
-    gap:40px;
+    padding: 0px 15%;
+    gap:17%;
 }
 
-.header-bar {
+.header-col {
     display:flex;
     align-items:center;
     justify-content:space-between;
     padding: 15px 0px;
 }
+
+.header-col > p {
+    font-size:24px;
+    color: #F9FAF8;
+}
+
+.header-col > div > a {
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.intro-col {
+    display:flex;
+    gap:5%;
+}
+
+.intro-col > div:first-child {
+    flex: 1 1 0;
+}
+
+.intro-col > div:last-child  {
+    background-color: #747474;
+    flex: 1 1 0;
+}
+
+.intro-col > div:first-child > h2 {
+    font-size:48px;
+    font-weight:bolder;
+    gap:8px;
+}
+
