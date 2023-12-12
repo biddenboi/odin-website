@@ -4,6 +4,11 @@
     padding:0px;
 }
 
+/*define bounds*/
+body > * {
+    border: 1px solid red;
+}
+
 .teal-bkg {
     background-color:#1F2937;
     color: white;
@@ -96,4 +101,19 @@ html, body {
 
 .intro-col > div > *{
     margin: 1.5% 0;
+}
+
+/**introduction section*/
+
+.info-section {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.info-section > p { 
+    font-size: 36px;
+    font-weight:bolder;
+    color:#1F2937;
 }
