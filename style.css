@@ -67,23 +67,33 @@ html, body {
     color:#E5E7EB;
 }
 
+.header-col > div {
+    display:flex;
+    gap: 20px;
+}
+
 .intro-col {
     display:flex;
-    gap:5%;
+    gap:8%;
 }
 
 .intro-col > div:first-child {
-    flex: 1 1 0;
+    flex: .65 1 0;
 }
 
 .intro-col > div:last-child  {
+    display:flex;
     background-color: #747474;
     flex: 1 1 0;
+    align-items:center;
+    justify-content:center;
 }
 
 .intro-col > div:first-child > h2 {
     font-size:48px;
     font-weight:bolder;
-    gap:8px;
 }
 
+.intro-col > div > *{
+    margin: 1.5% 0;
+}
