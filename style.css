@@ -1,0 +1,58 @@
+* {
+    font-family:roboto, arial;
+    margin:0px;
+    padding:0px;
+}
+
+.teal-bkg {
+    background-color:#1F2937;
+    color: white;
+}
+
+.bold {font-weight:bold;}
+.light {font-weight:lighter;}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+button {
+    background-color:#3882F6;
+    color:white;
+    border-style:none;
+    border-radius:7.5px;
+    padding: 5px 25px;
+}
+
+html, body {
+    height:100%;
+}
+/**---*/
+.header-section {
+    height:35%;
+}
+
+.info-section,
+.quote-section,
+.banner-section {
+    height:20%;
+}
+
+.footer-section {
+    height:5%;
+}
+
+.header-section {
+    display:flex;
+    flex-direction: column;
+    padding: 0px 10%;
+    gap:40px;
+}
+
+.header-bar {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 15px 0px;
+}
