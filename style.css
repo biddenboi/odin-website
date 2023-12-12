@@ -30,17 +30,17 @@ html, body {
 }
 /**---*/
 .header-section {
-    height:35%;
+    height:60%;
 }
 
 .info-section,
 .quote-section,
 .banner-section {
-    height:20%;
+    height:50%;
 }
 
 .footer-section {
-    height:5%;
+    height:10%;
 }
 
 .header-section {
